@@ -2,7 +2,7 @@
 
 
 ## Problem Statement
-This assignment's objectives are to create our own feedforward and backpropagation code, apply gradient descent (and its variations) using backpropagation, create our own optimizers, apply it to a classification job, and use wandb.ai to log our trials.
+This assignment's objectives are to create our own feedforward neuram network and backpropagation code, apply gradient descent (and its variations SGD, Momentum, Nesterov, RMSprop, Adam, Nadam) using backpropagation, create our own optimizers, apply it to a classification job (of fashion_mnist dataset), and use [wandb.ai](url) to log our trials.
 
 ## Prerequisites
 python 3.10
