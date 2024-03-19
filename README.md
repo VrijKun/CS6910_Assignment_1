@@ -2,41 +2,46 @@
 
 
 ## Problem Statement
-This assignment's objectives are to create our own feedforward neuram network and backpropagation code, apply gradient descent (and its variations SGD, Momentum, Nesterov, RMSprop, Adam, Nadam) using backpropagation, create our own optimizers, apply it to a classification job (of fashion_mnist dataset), and use [wandb.ai](url) to log our trials.
+This assignment's objectives are to create our own feedforward neuram network and backpropagation code, apply gradient descent (and its variations SGD, Momentum, Nesterov, RMSprop, Adam, Nadam) using backpropagation, create our own optimizers, apply it to a classification job (of fashion_mnist dataset), and use [wandb.ai](wandb.ai) to log our trials.
 
 ## Prerequisites
 python 3.10
 numpy 1.26.4
 keras #ONLY FOR IMPORTING DATASET
+
 Clone/download this repository
-I have conducted all my experiments in Google Collab, for running in google colab, install wandb using following command -
+All my experiments have been performed on Google Collab, to run it on google colab, install wandb from the following command -
+```
 !pip install wandb 
-For running locally, install wandb and other required libraries using following command
+```
+Use the following command to install wandb and other necessary libraries for local operation.
 ```
 pip install wandb
 pip install numpy
 pip install keras
 ```
 ## Dataset
-I have used Fashion-MNIST dataset for complete experiments.
-I have used MNIST dataset for Q10.
-## Hyperparameters used in experiments
-Sr. no	Hyperparameter	Variation/values used
-1.	Activation function	Sigmoid, tanh,ReLu
-2.	Loss function	Cross entropy, Mean squared error
-3.	Initialisation	Random, Xavier
-4.	Optimizer	Stochastic gradient descent, Momentum gradient descent, Nesterov gradient descent, RMSprop, ADAM, NADAM
-5.	Batch size	32, 64 ,128
-6.	Hidden layers	[64,64,64],[128,128,128],[256,256,256],[64,64,64,64],[64,64,64,64,64],[128,128,128,128],[128,128,128,128,128]
-7.	Epochs	10,20,30
-8.	Learning rate	0.001,0.0001
-9.	Weight decay	0, 0.0005
-10.	Dropout rate	0, 0.1
-Question 1, 2, 3
-The code for question 1,2,3 can be found here.
+Fashion-MNIST dataset have been used to complete experiments.
+MNIST dataset have been used for Q10.
+## Hyperparameters
+| Sr. no |	Hyperparameter |	Variation/values used |
+| ------ |	------------- | --------------------- |
+| 1. |	Activation function |	Sigmoid, tanh,ReLu |
+| 2. |	Loss function |	Cross entropy, Mean squared error |
+| 3. |	Initialisation |	Random, Xavier |
+| 4. |	Optimizer |	Stochastic gradient descent, Momentum gradient descent, Nesterov gradient descent, RMSprop, ADAM, NADAM |
+| 5. |	Batch size |	32, 64 ,128 |
+| 6. |	Hidden layers |	[64,64,64],[128,128,128],[32,32,32],[64,64,64,64],[64,64,64,64,64],[128,128,128,128],[128,128,128,128,128] |
+| 7. |	Epochs |	5,10 |
+| 8. |	Learning rate |	0.001,0.0001 |
+| 9. |	Weight decay |	0, 0.0005, 0.5 |
+| 10. |	Dropout rate |	0 |
 
-All experiments
-All experiments are logged in this google colab notebook. (If having difficulty to view the code of colab notebook, refer .py file of the same here)
+## All the Question
+The solution code for all the experiments can be found [Here](https://github.com/VrijKun/CS6910_Assignment_1/blob/main/Assignment_1_DL_ED23D015.ipynb)
+
+## All experiments
+Experiments are available in [google colab notebook](https://github.com/VrijKun/CS6910_Assignment_1/blob/main/Assignment_1_DL_ED23D015_2nd_Experimants.ipynb). (If having difficulty to view the code of colab notebook, refer .py file of the same here)
 
 ## Evaluation file(train.py)
 For evaluating model download train.py file. (make sure you have all the prerequisite libraries installed).
