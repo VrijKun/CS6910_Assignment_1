@@ -12,9 +12,11 @@ Clone/download this repository
 I have conducted all my experiments in Google Collab, for running in google colab, install wandb using following command -
 !pip install wandb 
 For running locally, install wandb and other required libraries using following command
+'''
 pip install wandb
 pip install numpy
 pip install keras
+'''
 ## Dataset
 I have used Fashion-MNIST dataset for complete experiments.
 I have used MNIST dataset for Q10.
