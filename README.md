@@ -5,8 +5,8 @@
 This assignment's objectives are to create our own feedforward and backpropagation code, apply gradient descent (and its variations) using backpropagation, create our own optimizers, apply it to a classification job, and use wandb.ai to log our trials.
 
 ## Prerequisites
-python 3.9
-numpy 1.21.5
+python 3.10
+numpy 1.26.4
 keras #ONLY FOR IMPORTING DATASET
 Clone/download this repository
 I have conducted all my experiments in Google Collab, for running in google colab, install wandb using following command -
